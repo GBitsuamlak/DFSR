@@ -8,8 +8,6 @@ Divergence-free Spectral Representation (DFSR) method is an inflow/inlet turbule
 
 In this version of the code, the divergence-free condition is imposed on the generated turbulence by adding a gradient of a velocity potential, following the procedure developed by *Shirani et al.(1981)*. The final velocity field is written for each time step in the corresponding case directory. Mathematical details of the implemented procedure can be found in [Melaku and Bitsuamlak(2021)](https://www.sciencedirect.com/science/article/pii/S0167610521000660). For the most uptodate version of the code please check [main](https://github.com/abiyfantaye/DFSR). If you find this work useful in your research and use DFSR method or parts of it in your work, please do not forget to cite the paper.
 
-![screenShot](files/velocityPlots.png)
-
 ## Installing DFSR
 ### Requirements
 Before compiling the source code, you need to have the following packages already installed. 
